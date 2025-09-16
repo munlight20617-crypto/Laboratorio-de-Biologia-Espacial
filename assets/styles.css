@@ -1,7 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #0f192b;
-    color: #e0e0e0;
+    background-color: #0c1825; /* Fondo oscuro Space Apps */
+    color: #ffffff;
     margin: 0;
     padding: 0;
     display: flex;
@@ -9,19 +9,19 @@ body {
     align-items: center;
 }
 
-.pantalla-seleccion {
-    text-align: center;
-    padding: 50px 0;
-}
-
 .titulo-principal {
     font-size: 2.5em;
-    color: #4CAF50;
+    color: #00ff73; /* Verde brillante Space Apps */
 }
 
 .subtitulo-principal {
     font-size: 1.5em;
-    color: #b0bec5;
+    color: #ffffff;
+}
+
+.pantalla-seleccion {
+    text-align: center;
+    padding: 50px 0;
 }
 
 .selection-buttons {
@@ -29,8 +29,8 @@ body {
 }
 
 .btn-simulador {
-    background-color: #2e7d32;
-    color: white;
+    background-color: #00ff73;
+    color: #000000;
     border: none;
     padding: 15px 30px;
     font-size: 1.2em;
@@ -41,7 +41,7 @@ body {
 }
 
 .btn-simulador:hover {
-    background-color: #1b5e20;
+    background-color: #00b352;
 }
 
 #simulador-container {
@@ -65,7 +65,7 @@ body {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: 3px solid #4CAF50;
+    border: 3px solid #00ff73;
     object-fit: cover;
 }
 
@@ -116,8 +116,8 @@ body {
 }
 
 .controles-simulador button {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #00ff73;
+    color: #000000;
     border: none;
     padding: 12px 25px;
     cursor: pointer;
@@ -126,12 +126,19 @@ body {
 }
 
 .section-title {
-    color: #4CAF50;
+    color: #00ff73;
     margin-top: 40px;
 }
 
 .pioneros-section {
     margin-top: 40px;
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #1e2837;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 .pionero-info-container {
